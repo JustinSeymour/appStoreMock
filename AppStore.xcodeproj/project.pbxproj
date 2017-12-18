@@ -12,6 +12,9 @@
 		745009591FE3C130008D4B54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 745009571FE3C130008D4B54 /* Main.storyboard */; };
 		7450095B1FE3C130008D4B54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7450095A1FE3C130008D4B54 /* Assets.xcassets */; };
 		7450095E1FE3C130008D4B54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7450095C1FE3C130008D4B54 /* LaunchScreen.storyboard */; };
+		745009661FE3C834008D4B54 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745009651FE3C834008D4B54 /* CategoryCell.swift */; };
+		745009681FE3DA29008D4B54 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745009671FE3DA29008D4B54 /* Models.swift */; };
+		74BDB1C21FE7B4C3004FF88A /* AppDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BDB1C11FE7B4C3004FF88A /* AppDetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		7450095A1FE3C130008D4B54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7450095D1FE3C130008D4B54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7450095F1FE3C130008D4B54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		745009651FE3C834008D4B54 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		745009671FE3DA29008D4B54 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		74BDB1C11FE7B4C3004FF88A /* AppDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				7450095A1FE3C130008D4B54 /* Assets.xcassets */,
 				7450095C1FE3C130008D4B54 /* LaunchScreen.storyboard */,
 				7450095F1FE3C130008D4B54 /* Info.plist */,
+				745009651FE3C834008D4B54 /* CategoryCell.swift */,
+				745009671FE3DA29008D4B54 /* Models.swift */,
+				74BDB1C11FE7B4C3004FF88A /* AppDetailController.swift */,
 			);
 			path = AppStore;
 			sourceTree = "<group>";
@@ -137,6 +146,9 @@
 			files = (
 				745009561FE3C130008D4B54 /* ViewController.swift in Sources */,
 				745009541FE3C130008D4B54 /* AppDelegate.swift in Sources */,
+				745009661FE3C834008D4B54 /* CategoryCell.swift in Sources */,
+				74BDB1C21FE7B4C3004FF88A /* AppDetailController.swift in Sources */,
+				745009681FE3DA29008D4B54 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +290,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.justinseymour.AppStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -292,7 +304,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.justinseymour.AppStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
