@@ -15,6 +15,7 @@
 		745009661FE3C834008D4B54 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745009651FE3C834008D4B54 /* CategoryCell.swift */; };
 		745009681FE3DA29008D4B54 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745009671FE3DA29008D4B54 /* Models.swift */; };
 		74BDB1C21FE7B4C3004FF88A /* AppDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BDB1C11FE7B4C3004FF88A /* AppDetailController.swift */; };
+		74C314171FE8E2BC001AD53D /* ScreenshotsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C314161FE8E2BC001AD53D /* ScreenshotsCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		745009651FE3C834008D4B54 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		745009671FE3DA29008D4B54 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		74BDB1C11FE7B4C3004FF88A /* AppDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailController.swift; sourceTree = "<group>"; };
+		74C314161FE8E2BC001AD53D /* ScreenshotsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotsCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				745009651FE3C834008D4B54 /* CategoryCell.swift */,
 				745009671FE3DA29008D4B54 /* Models.swift */,
 				74BDB1C11FE7B4C3004FF88A /* AppDetailController.swift */,
+				74C314161FE8E2BC001AD53D /* ScreenshotsCell.swift */,
 			);
 			path = AppStore;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				745009661FE3C834008D4B54 /* CategoryCell.swift in Sources */,
 				74BDB1C21FE7B4C3004FF88A /* AppDetailController.swift in Sources */,
 				745009681FE3DA29008D4B54 /* Models.swift in Sources */,
+				74C314171FE8E2BC001AD53D /* ScreenshotsCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
